@@ -13,8 +13,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $senha = $_POST['senha'];
 
     // Credenciais fixas (apenas para exemplo)
-    $usuario_correto = "admin";
-    $senha_correta = "1234";
+    $usuario_correto = "";
+    $senha_correta = "";
 
     // Verifica as credenciais
     if ($usuario === $usuario_correto && $senha === $senha_correta) {
